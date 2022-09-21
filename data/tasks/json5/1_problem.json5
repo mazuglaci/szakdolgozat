@@ -1,0 +1,14 @@
+{
+    name: "Joe",
+    age: 25,
+    sex: "male",
+    height: 1.75,
+    skin: "white",
+    hair: "blond",
+    eye: "blue",
+    clothing: {
+        color: "red",
+        figures: ["moon", "bush", "cat", ],
+    },
+    glasses: false,
+}

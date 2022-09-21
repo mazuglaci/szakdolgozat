@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI teszt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styleNavigation.css">
+    <link rel="stylesheet" href="styles/styleContent.css">
+</head>
+
+<body>
+    <div id="toDraw" class="hidden">
+        <img id="apple" src="data/images/figures/apple.png">
+        <img id="banana" src="data/images/figures/banana.png">
+        <img id="bush" src="data/images/figures/bush.png">
+        <img id="cat" src="data/images/figures/cat.png">
+        <img id="dog" src="data/images/figures/dog.png">
+        <img id="moon" src="data/images/figures/moon.png">
+        <img id="sun" src="data/images/figures/sun.png">
+        <img id="tree" src="data/images/figures/tree.png">
+    </div>
+
+    <nav id="headerPanel">
+        <ul>
+            <li data-page="main">Főoldal</li>
+            <li data-page="eno">ENO</li>
+            <li data-page="hjson">HJSON</li>
+            <!--<li data-page="hocon">HOCON</li>-->
+            <li data-page="ini">INI</li>
+            <li data-page="json">JSON</li>
+            <li data-page="json5">JSON5</li>
+            <li data-page="propreties">PROPERTIES</li>
+            <li data-page="toml">TOML</li>
+            <li data-page="xml">XML</li>
+            <li data-page="yaml">YAML</li>
+        </ul>
+    </nav>
+    <nav id="sidePanel">
+            <ul></ul>
+    </nav>
+    <div id="container">
+        <div id="dataTableArea" class="task hidden"></div>
+        <div id="dataPictureArea" class="task hidden">
+            <canvas width="1920" height="980"></canvas>
+        </div>
+        <div id="codeArea" class="task hidden"></div>
+        <div id="checkArea" class="task hidden">
+            <button id="checkButton"></button>
+            <button id="answerButton"></button>
+            <p id="correctSpan"></p>
+        </div>
+        <div id="descriptionArea" class="example hidden"></div>
+    </div>
+</body>
+
+<script src="node_modules/codemirror/lib/codemirror.js"></script>
+<script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+<script src="node_modules/codemirror/mode/properties/properties.js"></script>
+<script src="node_modules/codemirror/mode/toml/toml.js"></script>
+<script src="node_modules/codemirror/mode/xml/xml.js"></script>
+<script src="node_modules/codemirror/mode/yaml/yaml.js"></script>
+
+<script src="node_modules/codemirror/addon/edit/closebrackets.js"></script>
+<script src="node_modules/codemirror/addon/edit/matchbrackets.js"></script>
+<script src="node_modules/codemirror/addon/edit/closetag.js"></script>
+<script src="node_modules/codemirror/addon/edit/matchtags.js"></script>
+
+
+<script src="bundle/common.js"></script>
+<!--<script src="bundle/main.js"></script>-->
+<script src="bundle/navigation.js"></script>
+
+</html>

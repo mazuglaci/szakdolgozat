@@ -1,0 +1,12 @@
+<person>
+    <name>Mark</name>
+    <age>25</age>
+    <clothing>
+        <color>red</color>
+        <figures>
+            <figure>sun</figure>
+            <figure>tree</figure>
+            <figure>apple</figure>
+        </figures>
+    </clothing>
+</person>

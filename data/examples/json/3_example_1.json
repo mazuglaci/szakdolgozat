@@ -1,0 +1,6 @@
+{
+    "name": "Greg",
+    "sex": "male",
+    "clothing_color": "red",
+    "clothing_figures": ["sun", "apple", "tree"]
+}

@@ -1,0 +1,17 @@
+name = "Martha"
+age = 23
+sex = "female"
+
+[[friends]]
+name = "Jim"
+sex = "male"
+
+[[friends]]
+name = "Anne"
+age = 23
+sex = "female"
+
+[[friends]]
+name = "Boris"
+age = 22
+sex = "male"

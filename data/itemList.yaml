@@ -1,0 +1,594 @@
+main:
+    default: intro
+    items:
+        - id: intro
+          text: Oldalról
+          type: example
+          source: main/intro.html
+        - id: instructions
+          text: Használat
+          type: example
+          source: main/instructions.html
+        - id: instruction_other
+          text: "Használat\negyéb"
+          type: example
+          source: main/instructions_other.html
+        - id: impressum
+          text: Impressum
+          type: example
+          source: main/impressum.html
+eno:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: eno/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: eno/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: eno
+          source: eno/1_problem.eno
+        - id: example2
+          text: Példa 2
+          type: example
+          source: eno/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: eno
+          source: eno/2_problem.eno
+        - id: example3
+          text: Példa 3
+          type: example
+          source: eno/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: eno
+          source: eno/3_problem.eno
+        - id: example4
+          text: Példa 4
+          type: example
+          source: eno/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: eno
+          source: eno/4_problem.eno
+        - id: example5
+          text: Példa 5
+          type: example
+          source: eno/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: eno
+          source: eno/5_problem.eno
+        - id: problem6 
+          text: Feladat 6
+          type: task
+          format: eno
+          source: eno/6_problem.eno
+        - id: example6
+          text: Példa 6
+          type: example
+          source: eno/6_example.html
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: eno
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: eno
+          source: null
+hjson:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: hjson/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: hjson/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: hjson
+          source: hjson/1_problem.hjson
+        - id: example2
+          text: Példa 2
+          type: example
+          source: hjson/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: hjson
+          source: hjson/2_problem.hjson
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: hjson
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: hjson
+          source: null
+hocon:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: pl.html
+        - id: examplePL
+          text: Példa pl
+          type: example
+          source: pl.html
+        - id: taskPL
+          text: Feladat pl
+          type: task
+          format: json
+          source: pl.json
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: hocon
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: hocon
+          source: null
+ini:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: ini/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: ini/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: ini
+          source: ini/1_problem.ini
+        - id: example2
+          text: Példa 2
+          type: example
+          source: ini/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: ini
+          source: ini/2_problem.ini
+        - id: example3
+          text: Példa 3
+          type: example
+          source: ini/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: ini
+          source: ini/3_problem.ini
+        - id: example4
+          text: Példa 4
+          type: example
+          source: ini/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: ini
+          source: ini/4_problem.ini
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: ini
+          source: ini/5_problem.ini
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: ini
+          friends: false
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: ini
+          friends: false
+          source: null
+json:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: json/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: json/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: json
+          source: json/1_problem.json
+        - id: example2
+          text: Példa 2
+          type: example
+          source: json/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: json
+          source: json/2_problem.json
+        - id: example3
+          text: Példa 3
+          type: example
+          source: json/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: json
+          source: json/3_problem.json
+        - id: example4
+          text: Példa 4
+          type: example
+          source: json/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: json
+          source: json/4_problem.json
+        - id: example5
+          text: Példa 5
+          type: example
+          source: json/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: json
+          source: json/5_problem.json
+        - id: problem6
+          text: Feladat 6
+          type: task
+          format: json
+          source: json/6_problem.json
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: json
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: json
+          source: null
+json5:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: json5/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: json5/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: json5
+          source: json5/1_problem.json5
+        - id: example2
+          text: Példa 2
+          type: example
+          source: json5/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: json5
+          source: json5/2_problem.json5
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: json5
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: json5
+          source: null
+propreties:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: properties/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: properties/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: properties
+          source: properties/1_problem.properties
+        - id: example2
+          text: Példa 2
+          type: example
+          source: properties/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: properties
+          source: properties/2_problem.properties
+        - id: example3
+          text: Példa 3
+          type: example
+          source: properties/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: properties
+          source: properties/3_problem.properties
+        - id: example4
+          text: Példa 4
+          type: example
+          source: properties/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: properties
+          source: properties/4_problem.properties
+        - id: example5
+          text: Példa 5
+          type: example
+          source: properties/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: properties
+          source: properties/5_problem.properties
+        - id: problem6
+          text: Feladat 6
+          type: task
+          format: properties
+          source: properties/6_problem.properties
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: properties
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: properties
+          source: null
+toml:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: toml/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: toml/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: toml
+          source: toml/1_problem.toml
+        - id: example2
+          text: Példa 2
+          type: example
+          source: toml/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: toml
+          source: toml/2_problem.toml
+        - id: example3
+          text: Példa 3
+          type: example
+          source: toml/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: toml
+          source: toml/3_problem.toml
+        - id: example4
+          text: Példa 4
+          type: example
+          source: toml/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: toml
+          source: toml/4_problem.toml
+        - id: example5
+          text: Példa 5
+          type: example
+          source: toml/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: toml
+          source: toml/5_problem.toml
+        - id: problem6
+          text: Feladat 6
+          type: task
+          format: toml
+          source: toml/6_problem.toml
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: toml
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: toml
+          source: null
+xml:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: xml/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: xml/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: xml
+          source: xml/1_problem.xml
+        - id: example2
+          text: Példa 2
+          type: example
+          source: xml/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: xml
+          source: xml/2_problem.xml
+        - id: example3
+          text: Példa 3
+          type: example
+          source: xml/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: xml
+          source: xml/3_problem.xml
+        - id: example4
+          text: Példa 4
+          type: example
+          source: xml/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: xml
+          source: xml/4_problem.xml
+        - id: example5
+          text: Példa 5
+          type: example
+          source: xml/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: xml
+          source: xml/5_problem.xml
+        - id: example6
+          text: Példa 6
+          type: example
+          source: xml/6_example.html
+        - id: problem6
+          text: Feladat 6
+          type: task
+          format: xml
+          source: xml/6_problem.xml
+        - id: problem7
+          text: Feladat 7
+          type: task
+          format: xml
+          source: xml/7_problem.xml
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: xml
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: xml
+          source: null
+yaml:
+    default: intro
+    items:
+        - id: intro
+          text: Bevezetés
+          type: example
+          source: yaml/intro.html
+        - id: example1
+          text: Példa 1
+          type: example
+          source: yaml/1_example.html
+        - id: problem1
+          text: Feladat 1
+          type: task
+          format: yaml
+          source: yaml/1_problem.yaml
+        - id: example2
+          text: Példa 2
+          type: example
+          source: yaml/2_example.html
+        - id: problem2
+          text: Feladat 2
+          type: task
+          format: yaml
+          source: yaml/2_problem.yaml
+        - id: example3
+          text: Példa 3
+          type: example
+          source: yaml/3_example.html
+        - id: problem3
+          text: Feladat 3
+          type: task
+          format: yaml
+          source: yaml/3_problem.yaml
+        - id: example4
+          text: Példa 4
+          type: example
+          source: yaml/4_example.html
+        - id: problem4
+          text: Feladat 4
+          type: task
+          format: yaml
+          source: yaml/4_problem.yaml
+        - id: example5
+          text: Példa 5
+          type: example
+          source: yaml/5_example.html
+        - id: problem5
+          text: Feladat 5
+          type: task
+          format: yaml
+          source: yaml/5_problem.yaml
+        - id: problem6
+          text: Feladat 6
+          type: task
+          format: yaml
+          source: yaml/6_problem.yaml
+        - id: example6
+          text: Példa 6
+          type: example
+          source: yaml/6_example.html
+        - id: random
+          text: "Gyakorló\nvéletlen"
+          type: task
+          format: yaml
+          source: null
+        - id: backwards
+          text: "Gyakorló\nvisszafelé"
+          type: task
+          format: yaml
+          source: null

@@ -1,0 +1,18 @@
+<person>
+    <name>Anne</name>
+    <age>19</age>
+    <sex>female</sex>
+    <height>1.5</height>
+    <skin>black</skin>
+    <hair>black</hair>
+    <eye>green</eye>
+    <clothing>
+        <color>pink</color>
+        <figures>
+            <figure>sun</figure>
+            <figure>tree</figure>
+            <figure>moon</figure>
+        </figures>
+    </clothing>
+    <glasses>false</glasses>
+</person>

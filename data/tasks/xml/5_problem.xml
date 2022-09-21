@@ -1,0 +1,13 @@
+<person age="" sex="male" height="1.75">
+    <name>Matt</name>
+    <skin>asian</skin>
+    <hair>brown</hair>
+    <eye>brown</eye>
+    <clothing>
+        <color>orange</color>
+        <figures>
+            <figure>dog</figure>
+        </figures>
+    </clothing>
+    <glasses>true</glasses>
+</person>

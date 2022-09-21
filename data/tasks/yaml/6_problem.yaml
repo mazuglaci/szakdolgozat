@@ -1,0 +1,39 @@
+name: Mark
+age: ~
+sex: male
+height: 1.75
+skin: white
+hair: black
+eye: brown
+clothing:
+  color: yellow
+  figures: []
+glasses: fase
+house:
+  color: green
+  roof: black
+  windows: 3
+  multilevel: true
+friends:
+  - name: Rose
+    age: 31
+    sex: female
+    height: 1.25
+    skin: black
+    hair: blonde
+    eye: blue
+    clothing:
+      color: black
+      figures: [cat, banana]
+    glasses: false
+  - name: Hank
+    age: 31
+    sex: male
+    height: 1.5
+    skin: asian
+    hair: red
+    eye: green
+    clothing:
+      color: blue
+      figures: [moon]
+    glasses: true

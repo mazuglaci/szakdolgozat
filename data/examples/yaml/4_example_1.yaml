@@ -1,0 +1,5 @@
+name: Tom
+age: 25
+clothing:
+  color: black
+  figures: [dog, cat]

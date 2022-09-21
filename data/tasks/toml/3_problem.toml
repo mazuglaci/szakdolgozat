@@ -1,0 +1,9 @@
+name = "Jack"
+sex = "male"
+height = 1.5
+skin = "asian"
+hair = "brown"
+eye = "green"
+clothing_color = "orange"
+clothing_figures = ["apple", "banana"]
+glasses = false

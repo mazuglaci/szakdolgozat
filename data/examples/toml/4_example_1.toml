@@ -1,0 +1,16 @@
+house.roof = "red"
+house.color = "white"
+house.windows = 5
+house.multilevel = true
+
+#----------#
+
+[house]
+roof = "red"
+color = "white"
+windows = 5
+multilevel = true
+
+#----------#
+
+house = {roof = "red", color = "white", windows = 5, multilevel = true}

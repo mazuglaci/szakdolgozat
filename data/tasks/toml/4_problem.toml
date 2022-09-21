@@ -1,0 +1,14 @@
+name = "Tom"
+age = 26
+sex = "male"
+skin = "white"
+
+[clothing]
+color = "blue"
+figures = ["sun", "dog"]
+
+[house]
+color = "yellow"
+roof = "red"
+windows = 3
+multilevel = false

@@ -1,0 +1,137 @@
+/*
+#D8CAA8
+#5C832F
+#284907
+#382513
+#363942
+*/
+
+body {
+    display: grid;
+    grid-template-columns: 130px 45px 1fr 45px;
+    grid-template-rows: 45px 45px 1fr 45px;
+    background-color: #D8CAA8;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 421px;
+    /*overflow: hidden;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headerPanel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+    background-color: #5C832F;
+    margin-top: 0px;
+}
+
+#headerPanel ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    height: 25px; /*TODO enélkül*/
+}
+
+#headerPanel ul li {
+    display: flex;
+    flex: 1;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    color: #382513;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    /*TODO szövegek középre*/
+}
+
+#headerPanel ul li:first-child {
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+#headerPanel ul li:last-child {
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+#headerPanel ul li.selected {
+    background-color: #284907;
+    color: #ebe4d4;
+}
+
+#headerPanel ul li:hover {
+    color: #ebe4d4;
+}
+
+#sidePanel {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    align-self: top;
+    direction: rtl;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sidePanel::-webkit-scrollbar {
+    width: 10px
+}
+
+#sidePanel::-webkit-scrollbar-track {
+    background: #5C832F;
+}
+
+#sidePanel::-webkit-scrollbar-thumb {
+    background: #284907;
+}
+
+#sidePanel ul {
+    /*TODO sidepanel kilóg*/
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+#sidePanel ul li {
+    display: flex;
+    flex: 1;
+    background-color: #5C832F;
+    width: 78%;
+    height: 100%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 0 2em 2em 0;
+    border: 1px solid #382513;
+    border-left: 0px;
+    font-size: 1.25em;
+    text-align: center;
+    color: #382513;
+    cursor: pointer;
+    user-select: none;
+}
+
+#sidePanel ul li.selected {
+    background-color: #284907;
+    color: #ebe4d4;
+}
+
+#sidePanel ul li:hover {
+    color: #ebe4d4;
+}
+
+#container {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    min-width: 675px;
+}

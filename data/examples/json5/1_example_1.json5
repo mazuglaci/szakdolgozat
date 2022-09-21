@@ -1,0 +1,11 @@
+{
+    "name": "Christine",
+    "age": 25,
+    "sex": "female",
+    "skin": "asian",
+    "clothing": {
+        "color": "blue",
+        "figures": ["sun", "tree"]
+    },
+    "glasses": true
+}

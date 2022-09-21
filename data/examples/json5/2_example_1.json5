@@ -1,0 +1,8 @@
+{
+    universe: {
+        size: Infinity,
+        earths: +1,
+    },
+    description: 'Our beautiful world is full of wonders.\
+                  It is full of planets, big and small.',
+}

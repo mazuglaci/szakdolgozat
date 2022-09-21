@@ -1,0 +1,10 @@
+name: Martin Thomas
+age: ~
+friends:
+- name: &Kate Kate Martin
+  age: 19
+- name: &John John S. Williams
+  age: 19
+- name: &Mark Mark Smith
+  age: 18
+bestfriend: *John

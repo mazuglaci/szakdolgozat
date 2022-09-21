@@ -1,0 +1,13 @@
+name: Mark
+age: 21
+sex: male
+friends:
+- name: Tim
+  age: 22
+  sex: male
+- name: Nickole
+  age: ~
+  sex: female
+- name: Niki
+  age: 21
+  sex: female

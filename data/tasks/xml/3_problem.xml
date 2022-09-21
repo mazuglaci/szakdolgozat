@@ -1,0 +1,13 @@
+<person>
+    <name>Mark</name>
+    <age>25</age>
+    <sex>male</sex>
+    <height>1.25</height>
+    <skin>white</skin>
+    <house>
+        <color>white</color>
+        <roof>red</roof>
+        <windows>3</windows>
+        <multilevel>false</multilevel>
+    </house>
+</person>

@@ -1,0 +1,9 @@
+name: Martin
+age: ~
+friends:
+- name: Kate
+  age: 19
+- name: John
+  age: 19
+- name: Mark
+  age: 18

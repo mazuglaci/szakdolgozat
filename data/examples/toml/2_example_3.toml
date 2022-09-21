@@ -1,0 +1,7 @@
+description = """
+This is a simple program that will take a list of numbers and return the sum of all the numbers in the list.
+It will also return the average of all the numbers in the list, and the largest and smallest numbers.
+"""
+value_bin = 0b10    # kettes számrendszer = 2
+value_oct = 0o12    # nyolcas számrendszer = 10
+value_hex = 0x101   # hatványos számrendszer = 257

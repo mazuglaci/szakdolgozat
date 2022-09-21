@@ -1,0 +1,21 @@
+<!-- hibás -->
+<person>
+    <name>TIm</name>
+    <house>
+        <color>orange</color>
+        <garden>
+            <size>big</size>
+        </house> <!-- előbb a garden lezárása kell -->
+    </garden>
+</person>
+
+<!-- helyes -->
+<person>
+    <name>TIm</name>
+    <house>
+        <color>orange</color>
+        <garden>
+            <size>big</size>
+        </garden>
+    </house>
+</person>

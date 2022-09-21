@@ -1,0 +1,12 @@
+{
+    "name": "Rose",
+    "age": null,
+    "sex": "female",
+    "height": 1.5,
+    "skin": "asian",
+    "hair": "brown",
+    "eye": "green",
+    "clothing_color": "green",
+    "clothing_figures": ["cat", "dog"],
+    "glasses": true
+}

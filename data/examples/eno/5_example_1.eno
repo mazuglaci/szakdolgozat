@@ -1,0 +1,12 @@
+name: Tim
+# clothing
+color: green
+figures:
+
+# bestBriend
+name: Tom
+## clothing
+color: red
+figures:
+- apple
+- banana

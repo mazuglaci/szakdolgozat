@@ -1,0 +1,8 @@
+{
+    "name": "Gregor",
+    "nick_names": ["Greg", "Reg"],
+    "sex": "male",
+    "clothing_color": "red",
+    "clothing_figures": [],
+    "favorite_numbers": [3, 13]
+}

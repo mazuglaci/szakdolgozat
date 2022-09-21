@@ -1,0 +1,9 @@
+//A funny stroy
+{
+    name: My day
+    text:
+        '''
+        I was walking home from work when I saw a big red car.
+        It was driving towards my house...
+        ''' #TODO Continue later
+}

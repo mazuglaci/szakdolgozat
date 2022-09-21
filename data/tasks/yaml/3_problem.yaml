@@ -1,0 +1,12 @@
+name: Thomas
+age: ~
+sex: male
+height: 1.75
+skin: black
+hair: black
+eye: brown
+clothing_color: grey
+clothing_figures:
+- banana
+- bush
+glasses: true

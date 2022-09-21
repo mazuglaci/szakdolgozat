@@ -1,0 +1,8 @@
+<person age="15" sex="male" height="1.5">
+    <name>Tim</name>
+    <skin>white</skin>
+    <hair>blond</hair>
+    <eye>blue</eye>
+    <clothes>red</clothes>
+    <glasses>false</glasses>
+</person>

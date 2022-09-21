@@ -1,0 +1,50 @@
+{
+    "name": "Robert",
+    "age": 21,
+    "sex": "male",
+    "height": 1.75,
+    "skin": "white",
+    "hair": "red",
+    "eye": "green",
+    "clothing": {
+        "color": "blue",
+        "figures": ["dog", "tree"]
+    },
+    "glasses": false,
+    "house": {
+        "color": "white",
+        "roof": "orange",
+        "windows": 5,
+        "multilevel": true
+    },
+    "friends": [
+        {
+            "name": "Christina",
+            "age": null,
+            "sex": "female",
+            "height": 1.75,
+            "skin": "asian",
+            "hair": "blond",
+            "eye": "blue",
+            "clothing": {
+                "color": "orange",
+                "figures": []
+            },
+            "glasses": true
+        },
+        {
+            "name": "Elena",
+            "age": 23,
+            "sex": "female",
+            "height": 1.25,
+            "skin": "white",
+            "hair": "brown",
+            "eye": "brown",
+            "clothing": {
+                "color": "purple",
+                "figures": ["cat", "bush", "sun"]
+            },
+            "glasses": false
+        }
+    ]
+}

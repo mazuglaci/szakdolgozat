@@ -1,0 +1,11 @@
+<person>
+    <name>Mark</name>
+    <age></age>
+    <sex>male</sex>
+    <height>1.75</height>
+    <skin>white</skin>
+    <hair>blond</hair>
+    <eye>brown</eye>
+    <clothes>green</clothes>
+    <glasses>true</glasses>
+</person>

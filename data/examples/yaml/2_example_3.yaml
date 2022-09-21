@@ -1,0 +1,11 @@
+null_1: null
+null_2: NULL
+null_3: ~
+null_4:
+
+true_1: true
+true_2: True
+true_3: TRUE
+true_4: yes
+
+as_text: "yes"

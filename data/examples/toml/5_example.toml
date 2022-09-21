@@ -1,0 +1,15 @@
+name = "Nick"
+[clothing]
+color = "blue"
+figures = []
+
+[[friends]]
+name = "John"
+clothing.color = "red"
+clothing.figures = ["sun", "tree", "apple"]
+
+[[friends]]
+name = "Mary"
+[friends.clothing]
+color = "green"
+figures = ["bush", "cat"]

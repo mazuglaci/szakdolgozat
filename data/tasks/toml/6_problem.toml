@@ -1,0 +1,42 @@
+name = "Anne"
+age = 20
+sex = "female"
+height = 1.5
+skin = "asian"
+hair = "red"
+eye = "green"
+glasses = false
+[clothing]
+color = "purple"
+figures = ["dog"]
+
+[house]
+color = "purple"
+roof = "black"
+windows = "7"
+multilevel = true
+
+[[friends]]
+name = "Tim"
+age = 21
+sex = "male"
+height = 1.75
+skin = "black"
+hair = "black"
+eye = "brown"
+glasses = true
+[friends.clothing]
+color = "black"
+figures = ["apple", "sun", "tree"]
+
+[[friends]]
+name = "Mark"
+sex = "male"
+height = 1.75
+skin = "white"
+hair = "blond"
+eye = "brown"
+glasses = false
+[friends.clothing]
+color = "green"
+figures = []

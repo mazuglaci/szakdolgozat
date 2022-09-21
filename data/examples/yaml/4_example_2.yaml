@@ -1,0 +1,10 @@
+name: Joe
+age: 45
+house:
+  color: white
+  roof: red
+  garden:
+    size: large
+    trees: 5
+  multilevel: true
+sex: male

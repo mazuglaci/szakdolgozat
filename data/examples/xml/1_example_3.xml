@@ -1,0 +1,6 @@
+<!-- Data of a Book -->
+<book>
+    <title>The Grapes of Wrath</title>
+    <author>John Steinbeck</author>
+    <price>20.00</price>
+</book>

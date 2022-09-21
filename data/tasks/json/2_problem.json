@@ -1,0 +1,11 @@
+{
+    "name": "Frank",
+    "age": 46,
+    "sex": "male",
+    "height": 1.25,
+    "skin": "white",
+    "hair": "blond",
+    "eye": "blue",
+    "clothes": "purple",
+    "glasses": false
+}

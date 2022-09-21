@@ -1,0 +1,11 @@
+{
+    "name": "Trevor",
+    "age": 23,
+    "sex": "male",
+    "house": {
+        "color": "purple",
+        "roof": "black",
+        "windows": 2,
+        "multilevel": false
+    }
+}

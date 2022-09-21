@@ -1,0 +1,11 @@
+<person>
+    <name>Tim</name>
+    <age>15</age>
+    <sex>male</sex>
+    <height>1.5</height>
+    <skin>white</skin>
+    <hair>blond</hair>
+    <eye>blue</eye>
+    <clothes>red</clothes>
+    <glasses>false</glasses>
+</person>

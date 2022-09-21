@@ -1,0 +1,12 @@
+name: Martin
+age: 22
+sex: male
+skin: white
+clothing:
+   color: orange
+   figures: [sun, tree, bush]
+house:
+   color: yellow
+   roof: red
+   windows: 4
+   multilevel: false

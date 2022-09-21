@@ -1,0 +1,48 @@
+name: Marry
+age:
+sex: famale
+heigh: 1.25
+skin: black
+hair: brown
+eye: blue
+glasses: true
+house:
+color = purple
+roof = brown
+windows = 5
+multilevel = true
+
+# clothing
+color: yellow
+figures: 
+- tree
+- apple
+
+# friends
+## 0
+name: John
+age: 21
+sex: male
+height: 1.75
+skin: white
+hair: blonde
+eye: blue
+glasses: false
+### clothing 
+color: grey
+figures: 
+
+## 1
+name: Patrick
+age: 21
+sex: male
+height: 1.5
+skin: asian
+hair: black
+eye: brown
+glasses: false
+### clothing 
+color: pink
+figures: 
+- cat
+- dog

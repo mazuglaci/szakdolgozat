@@ -1,0 +1,6 @@
+empty_list:
+
+list_with_null:
+- first element
+- 
+- last element

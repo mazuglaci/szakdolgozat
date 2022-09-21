@@ -1,0 +1,16 @@
+{
+    "name": "Rick",
+    "age": 16,
+    "sex": "male",
+    "friends": [
+        {
+            "name": "Sue",
+            "age": 17,
+            "sex": "female"
+        }, {
+            "name": "Kyle",
+            "age": 18,
+            "sex": "male"
+        }
+    ]
+}

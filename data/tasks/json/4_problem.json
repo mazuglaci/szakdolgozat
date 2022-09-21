@@ -1,0 +1,16 @@
+{
+    "name": "Patric",
+    "age": 32,
+    "sex": "male",
+    "skin": "black",
+    "clothing": {
+        "color": "grey",
+        "figures": ["tree"]
+    },
+    "house": {
+        "color": "yellow",
+        "roof": "red",
+        "windows": 4,
+        "multilevel": true
+    }
+}

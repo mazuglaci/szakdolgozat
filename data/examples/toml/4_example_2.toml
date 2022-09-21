@@ -1,0 +1,29 @@
+city.name = "New York"
+city.population.count = 8380000
+city.population.dens = 10.7
+city.area.count = 7838000
+city.area.unit = "square kilometers"
+
+
+#----------#
+
+[city]
+name = "New York"
+
+[city.population]
+count = 8380000
+dens = 10.7
+
+[city.area]
+count = 7838000
+unit = "square kilometers"
+
+
+#----------#
+
+[city]
+name = "New York"
+population.count = 8380000
+population.dens = 10.7
+area = {count = 7838000, unit = "square kilometers"}
+

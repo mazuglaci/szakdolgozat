@@ -1,0 +1,13 @@
+name: Joe
+age: 19
+sex: male
+skin: white
+house:
+color = green
+roof = black
+windows = 4
+multilevel = false
+# clothing
+color: black
+figures:
+- moon

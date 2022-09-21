@@ -1,0 +1,12 @@
+# England
+name: JamShop
+## website
+url: www.jamshop.com
+accesible: true
+
+# USA << England
+## website
+url: www.jamshop.us
+
+# Germany << England
+name: MarmaladeShop

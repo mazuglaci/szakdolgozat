@@ -1,0 +1,58 @@
+{
+    name: Kate
+    age: 21
+    sex: femalte
+    height: 1.75
+    skin: white
+    hair: brown
+    eye: brown
+    clothing: {
+        color: orange
+        figures: [
+            dog
+            bush
+        ]
+    }
+    glasses: false
+    house: {
+        color: yellow
+        roof: black
+        windows: 8
+        multilevel: true
+    }
+    friends: [
+        {
+            name: Hanna
+            age: 21
+            sex: female
+            height: 1.5
+            skin: white
+            hair: red
+            eye: green
+            clothing: {
+                color: pink
+                figures: [
+                    cat
+                ]
+            }
+            glasses: true
+        }
+        {
+            name: Tom
+            age: null
+            sex: male
+            height: 1.5
+            skin: black
+            hair: black
+            eye: blue
+            clothing: {
+                color: blue
+                figures: [
+                    moon
+                    tree
+                ]
+            }
+            glasses: true
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+birthdate: 2000-08-01
+value_oct: 012         # nyolcas számrendszer = 10
+value_hex: 0x101       # hatványos számrendszer = 257
+value_normal: 1.2e-3   # normálalak = 0.0012
+last_modified: 2022-07-12T15:39:15

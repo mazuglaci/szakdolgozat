@@ -1,0 +1,6 @@
+name: Carl
+house:
+color = yellow
+roof = red
+windows = 9
+multilevel = true

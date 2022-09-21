@@ -1,0 +1,9 @@
+name = "Anne"
+age = 19
+sex = "famle"
+height = 1.25
+skin = "white"
+hair = "blond"
+eye = "blue"
+clothes = "pink"
+glasses = true

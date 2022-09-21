@@ -1,0 +1,14 @@
+<person age="16" sex="male">
+    <name>Mark</name>
+    <friends>
+        <person age="17" sex="female">
+            <name>Nickole</name>
+        </person>
+        <person age="" sex="male">
+            <name>Jim</name>
+        </person>
+        <person age="16" sex="female">
+            <name>Sarah</name>
+        </person>
+    </friends>
+</person>

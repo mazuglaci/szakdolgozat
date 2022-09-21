@@ -1,0 +1,17 @@
+name: Név
+age: Kor
+sex: "Nem\nfemale, male"
+height: "Magasság\n1.25,&nbsp;1.5,&nbsp;1.75"
+skin: "Bőrszín\nasian,&nbsp;black,&nbsp;white"
+hair: "Hajszín\nblack,&nbsp;blond,&nbsp;brown, red"
+eye: "Szemszín\nblue,&nbsp;brown,&nbsp;green"
+clothing:
+  color: "Ruha&nbsp;színe\nblue,&nbsp;black,&nbsp;green, grey,&nbsp;orange,&nbsp;pink, purple,&nbsp;red,&nbsp;yellow"
+  figures: "Figurák&nbsp;0&#8209;3&nbsp;elem\napple,&nbsp;banana,&nbsp;bush, cat,&nbsp;dog,&nbsp;moon, sun, tree"
+glasses: Van-e&nbsp;szemüveg
+house:
+  color: "Házfal&nbsp;színe\nblue,&nbsp;green,&nbsp;purple, white,&nbsp;yellow"
+  roof: "Háztető&nbsp;színe\nblack,&nbsp;brown,&nbsp;orange, red"
+  windows: Ablakok&nbsp;száma
+  multilevel: Több&nbsp;emeletes-e
+friends: Barátok&nbsp;0&#8209;3&nbsp;elem

@@ -1,0 +1,4 @@
+name = "Kate"
+sex = "female"
+clothing_color = "red"
+clothing_figures = ["cat", "dog"]

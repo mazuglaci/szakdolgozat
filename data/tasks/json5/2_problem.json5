@@ -1,0 +1,36 @@
+{
+    name: "Joe",
+    age: 30,
+    sex: "male",
+    height: 1.75,
+    skin: "black",
+    hair: "black",
+    eye: "green",
+    clothing: {
+        color: "purple",
+        figures: [],
+    },
+    glasses: true,
+    house: {
+        color: "white",
+        roof: "red",
+        windows: 4,
+        multilevel: false
+    },
+    friends: [
+        {
+            name: "Kate",
+            age: null,
+            sex: "female",
+            height: 1.25,
+            skin: "white",
+            hair: "red",
+            eye: "brown",
+            clothing: {
+                color: "yellow",
+                figures: ["apple","tree",],
+            },
+            glasses: false,
+        },
+    ],
+}

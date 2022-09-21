@@ -1,0 +1,11 @@
+{
+    name: Nicole
+    age: 19
+    sex: female
+    skin: black
+    clothing: {
+        color: pink
+        figures: ["banana"]
+    }
+    glasses: false
+}

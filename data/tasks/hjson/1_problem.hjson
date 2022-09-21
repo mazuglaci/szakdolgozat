@@ -1,0 +1,17 @@
+{
+    name: Mark
+    age: 45
+    sex: male
+    height: 1.5
+    skin: asian
+    hair: brown
+    eye: blue
+    clothing: {
+        color: black
+        figures: [
+            dog
+            cat
+        ]
+    }
+    glasses: false
+}

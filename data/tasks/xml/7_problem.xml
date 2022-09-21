@@ -1,0 +1,40 @@
+<person age="28" sex="male" height="1.75">
+    <name>John</name>
+    <skin>black</skin>
+    <hair>black</hair>
+    <eye>blue</eye>
+    <clothing>
+        <color>purple</color>
+        <figures>
+            <figure>banana</figure>
+            <figure>apple</figure>
+        </figures>
+    </clothing>
+    <glasses>false</glasses>
+    <friends>
+        <person age="" sex="female" height="1.5">
+            <name>Teresa</name>
+            <skin>white</skin>
+            <hair>blond</hair>
+            <eye>brown</eye>
+            <clothing>
+                <color>green</color>
+                <figures></figures>
+            </clothing>
+            <glasses>true</glasses>
+        </person>
+        <person age="28" sex="female" height="1.25">
+            <name>Timmy</name>
+            <skin>asian</skin>
+            <hair>red</hair>
+            <eye>green</eye>
+            <clothing>
+                <color>pink</color>
+                <figures>
+                    <figure>bush</figure>
+                </figures>
+            </clothing>
+            <glasses>false</glasses>
+        </person>
+    </friends>
+</person>

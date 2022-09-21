@@ -1,0 +1,11 @@
+<div>
+    <p>Természetesen a TOML esetén is lehetőség van az adatokat szintezni.</p>
+    <p>Ez megtehető a PROPERTIES-hez hasonló ponttal (.) elválasztott kulcsokkal, és az INI szekcióin alapuló táblákkal is, amik itt szintén szögletes zárójelek (&nbsp;[&nbsp;]&nbsp;) között írt kulcsnevek.</p>
+    <p>Emellett egy ritkábban használt lehetőség a helyben kifejtett táblák, amik egy JSON-höz hasonló kapcsos zárójelek (&nbsp;{&nbsp;}&nbsp;) között írt kulcs-érték párok.</p>
+    <p>Az alábbi 3 érték így ekvivalens, de a 3 megvalósítás egy kulcson belül nem keverhető.</p>
+    <div class="example" data-source="toml/4_example_1.toml" data-format="toml"></div>
+    <p>A szintezett kulcsnevek itt is tetszőleges mélységben bővíthetőek, mint a properties esetén.</p>
+    <p>Viszont az INI-vel ellentétben a TOML táblái szintén szinezhetőek a kulcs ponttal (.) elválasztásával.</p>
+    <p>Így mindkét megvalósítással tetszőleges mélységű struktúra építhető, sőt szintek között ez a két mód akár keverhető is.</p>
+    <div class="example" data-source="toml/4_example_2.toml" data-format="toml"></div>
+</div>
